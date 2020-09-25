@@ -1,0 +1,67 @@
+$snotify-success: transparent !default;
+$snotify-warning: transparent !default;
+$snotify-error: #ffcdd2 !default;
+
+$snotify-icons: -generate-icons(
+  (
+    error: $snotify-error,
+    warning: $snotify-warning,
+    info: $snotify-success,
+    success: $snotify-success,
+  )
+) !default;
+
+.snotify-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  line-height: 0;
+  transform: translate(0, -50%);
+  max-height: 35px;
+  max-width: 35px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.snotify-icon--error {
+  background-image: url('#{map-get($snotify-icons, error)}');
+}
+
+.snotify-icon--warning {
+  background-image: url('#{map-get($snotify-icons, warning)}');
+}
+
+.snotify-icon--info {
+  background-image: url('#{map-get($snotify-icons, info)}');
+}
+
+.snotify-icon--success {
+  background-image: url('#{map-get($snotify-icons, success)}');
+}
+
+.snotify-icon--async {
+  background-image: url('#{map-get($snotify-icons, async)}');
+  animation: async 3s infinite linear;
+  transform-origin: 50% 50%;
+}
+
+.snotify-centerCenter>.snotify-error .snotify-icon--error{
+  display: none;
+}
+
+.snotify-centerCenter .snotify-info .snotify-icon--info {
+  background-image: url('#{map-get($snotify-icons, info)}');
+}
+
+.snotify-centerCenter {
+
+  .snotify-icon {
+    position: initial;
+    max-height: 35px;
+    max-width: 48px;
+    width: 48px;
+    height:35px;
+  }
+}

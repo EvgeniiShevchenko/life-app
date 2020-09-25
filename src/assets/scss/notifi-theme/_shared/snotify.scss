@@ -1,0 +1,29 @@
+$snotify-backdrop-color: #000 !default;
+$snotify-width: 22% !default;
+$snotify-offset: 10px !default;
+
+$snotify-offset-bottom: 17% !default;
+$snotify-offset-right: 1.6% !default;
+
+.snotify {
+  display: block;
+  position: fixed;
+  width: $snotify-width;
+  z-index: 9999;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+
+.snotify-rightBottom {
+  right: $snotify-offset-right;
+  bottom: 132px;
+  width: 300px;
+}
+
+.snotify-centerCenter {
+  left: calc(50% - #{$snotify-width} / 2);
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: 23.4vw;
+}

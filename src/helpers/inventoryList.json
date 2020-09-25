@@ -1,0 +1,620 @@
+[{
+        "id": 1,
+        "name": "chocolate",
+        "description": "Chocolate add character weight +0,200",
+        "class": "consumed",
+        "subclass": "food",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 20,
+        "meta": {}
+    },
+    {
+        "id": 2,
+        "name": "beer",
+        "description": "beer add character weight +0,200",
+        "class": "consumed",
+        "subclass": "drink",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 10,
+        "meta": {}
+    },
+    {
+        "id": 3,
+        "name": "soda",
+        "description": "soda add character weight +0,200",
+        "class": "consumed",
+        "subclass": "drink",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 10,
+        "meta": {}
+    },
+    {
+        "id": 4,
+        "name": "fuel",
+        "description": "fuel add character weight +0,200",
+        "class": "spares",
+        "subclass": "fuel",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    },
+    {
+        "id": 5,
+        "name": "first aid kit",
+        "description": "first aid kit add character weight +0,200",
+        "class": "consumed",
+        "subclass": "medicines",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    },
+    {
+        "id": 6,
+        "name": "sun glasses",
+        "description": "sun glasses add character weight +0,200",
+        "class": "clothes",
+        "subclass": "eyes",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 7,
+        "name": "cap",
+        "description": "cap add character weight +0,200",
+        "class": "clothes",
+        "subclass": "head",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 8,
+        "name": "mask",
+        "description": "mask add character weight +0,200",
+        "class": "clothes",
+        "subclass": "face",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 9,
+        "name": "earrings",
+        "description": "earrings add character weight +0,200",
+        "class": "clothes",
+        "subclass": "ears",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 2,
+        "meta": {}
+    },
+    {
+        "id": 10,
+        "name": "tee-shirt",
+        "description": "tee-shirt add character weight +0,200",
+        "class": "clothes",
+        "subclass": "bodyDown",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 11,
+        "name": "jacket",
+        "description": "jacket add character weight +0,200",
+        "class": "clothes",
+        "subclass": "outerwear",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 12,
+        "name": "clock",
+        "description": "clock add character weight +0,200",
+        "class": "clothes",
+        "subclass": "hands",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 13,
+        "name": "ring",
+        "description": "ring add character weight +0,200",
+        "class": "clothes",
+        "subclass": "hands",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 14,
+        "name": "pants",
+        "description": "pants add character weight +0,200",
+        "class": "clothes",
+        "subclass": "legs",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 15,
+        "name": "sneakers",
+        "description": "sneakers add character weight +0,200",
+        "class": "clothes",
+        "subclass": "shoes",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 16,
+        "name": "body armor",
+        "description": "body armor add character weight +0,200",
+        "class": "clothes",
+        "subclass": "armor",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [4, 12]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 17,
+        "name": "i-fruit 2000PX",
+        "description": "i-fruit 2000PX smartphone add character weight +0,200",
+        "class": "clothes",
+        "subclass": "phone",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 18,
+        "name": "backpack XL-300",
+        "description": "backpack XL-300 add character weight +0,200",
+        "class": "clothes",
+        "subclass": "bag",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["dressed", "undressed", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 1,
+        "meta": {}
+    },
+    {
+        "id": 19,
+        "name": "cigarettes",
+        "description": "Chocolate add character weight +0,200",
+        "class": "consumed",
+        "subclass": "smoking",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [20, 7],
+            [20, 12],
+            [20, 20],
+            [1, 24],
+            [1, 0]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    },
+    {
+        "id": 20,
+        "name": "marijuana",
+        "description": "Chocolate add character weight +0,200",
+        "class": "consumed",
+        "subclass": "drugs",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 20,
+        "meta": {}
+    },
+    {
+        "id": 21,
+        "name": "spring",
+        "description": "Chocolate add character weight +0,200",
+        "class": "spares",
+        "subclass": "spring",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "B",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 20,
+        "meta": {}
+    },
+    {
+        "id": 22,
+        "name": "spark plug",
+        "description": "Chocolate add character weight +0,200",
+        "class": "spares",
+        "subclass": "sparkPlug",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "B",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    },
+    {
+        "id": 23,
+        "name": "Piston",
+        "description": "Chocolate add character weight +0,200",
+        "class": "spares",
+        "subclass": "piston",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "B",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    },
+    {
+        "id": 24,
+        "name": "Accumulator",
+        "description": "Chocolate add character weight +0,200",
+        "class": "spares",
+        "subclass": "accumulator",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "B",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    },
+    {
+        "id": 25,
+        "name": "Transmission",
+        "description": "Chocolate add character weight +0,200",
+        "class": "spares",
+        "subclass": "transmission",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "B",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    },
+    {
+        "id": 26,
+        "name": "Brake",
+        "description": "Chocolate add character weight +0,200",
+        "class": "spares",
+        "subclass": "brake",
+        "price": {
+            "purchase": 3,
+            "sale": 2.5
+        },
+        "weight": "0.200",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "B",
+        "craftDuration": 1,
+        "methods": ["use", "split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    },
+    {
+        "id": 27,
+        "name": "tool",
+        "description": "tool add character weight +0,200",
+        "class": "consumed",
+        "subclass": "tools",
+        "price": {
+            "purchase": 4,
+            "sale": 3
+        },
+        "weight": "0.500",
+        "recipe": [
+            [1, 15],
+            [1, 15],
+            [1, 15]
+        ],
+        "recipeclass": "C",
+        "craftDuration": 1,
+        "methods": ["split", "drop"],
+        "maxDurability": 48,
+        "stack": 5,
+        "meta": {}
+    }
+]

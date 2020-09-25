@@ -1,0 +1,23 @@
+@mixin if-error {
+    .is-error-empty {
+        outline: 2px solid $borderInputErrorColor;
+        outline-offset: -2px;
+
+        &::placeholder {
+            color: $borderInputErrorColor;
+            text-shadow: 0 0 8px #000000;
+        }
+    }
+}
+
+@mixin init-font {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: $globalTextColor;
+}
+@mixin init-font-akrobat {
+    font-family: Akrobat;
+    color: $globalTextColor;
+}

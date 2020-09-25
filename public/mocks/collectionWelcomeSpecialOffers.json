@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "productId": 3,
+        "coinsPrice": 0,
+        "cashPrice": 1000000,
+        "timeLeft": "1600981199",
+        "purchased": false,
+        "amount": 1,
+        "class": "rarely"
+    },
+    {
+        "id": 2,
+        "productId": 10,
+        "coinsPrice": 100,
+        "cashPrice": 0,
+        "timeLeft": "1600808399",
+        "purchased": true,
+        "amount": 1,
+        "class": "often"
+    },
+    {
+        "id": 3,
+        "productId": 12,
+        "coinsPrice": 400,
+        "cashPrice": 0,
+        "timeLeft": "1600981199",
+        "purchased": false,
+        "amount": 1,
+        "class": "rarely"
+    },
+    {
+        "id": 4,
+        "productId": 5,
+        "coinsPrice": 50,
+        "cashPrice": 0,
+        "timeLeft": "1600981199",
+        "purchased": false,
+        "amount": 1,
+        "class": "often"
+    },
+    {
+        "id": 5,
+        "productId": 7,
+        "coinsPrice": 200,
+        "cashPrice": 0,
+        "timeLeft": "1600981199",
+        "purchased": false,
+        "amount": 1,
+        "class": "often"
+    },
+    {
+        "id": 6,
+        "productId": 19,
+        "coinsPrice": 0,
+        "cashPrice": 400,
+        "timeLeft": "1600981199",
+        "purchased": false,
+        "amount": 1,
+        "class": "often"
+    }
+]

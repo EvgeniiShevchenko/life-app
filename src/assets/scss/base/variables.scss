@@ -1,0 +1,45 @@
+// colors
+$color-white: #ffffff;
+$color-black: #000000;
+$color-grederlevy: #dfe6e9;
+$color-dandelion: #fdc96e;
+$color-heavenly: #74b9ff;
+$color-manatee: #8d929e;
+
+// auth
+$loginFieldTextColor: $color-white;
+$loginPlaceholderColor: $color-white;
+$loginLabelColor: $color-grederlevy;
+$loginForgotColor: $color-heavenly;
+$loginSocialLinksColor: $color-heavenly;
+// choose character
+$chooseItemBorderColor: $color-manatee;
+$choosePriceTextColor: $color-dandelion;
+$chooseSelectBackgroundColor: rgba(255, 255, 255, 0.3);
+// custom character
+$customLabelColor: $color-grederlevy;
+$customCounterTextColor: $color-grederlevy;
+$customCounterTextColor: $color-grederlevy;
+$customCounterDigitColor: $color-dandelion;
+
+// General
+$borderInputColor: $color-white;
+$borderInputErrorColor: $color-dandelion;
+$inputErrorColor: $color-dandelion;
+$buttonTextColor: $color-white;
+$globalTextColor: $color-white;
+
+/*table size */
+$smallest: 10px;
+$xxxSmall:11px;
+$xxSmall: 12px;
+$xSmall: 13px;
+$small: 14px;
+$xMedium:15px;
+$medium:16px;
+$large: 18px;
+$xLarge:20px;
+$xxLarge: 24px;
+$xxxLarge: 32px;
+$x4Large: 40px;
+$largest: 44px;
